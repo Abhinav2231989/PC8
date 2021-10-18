@@ -12,3 +12,13 @@ https://www.jenkins.io/blog/2020/01/08/atlassians-new-bitbucket-server-integrati
 Adding web hook : 
 To resolve unexpected URL in webhook:
 https://stackoverflow.com/questions/46822898/ip-address-of-localhost8080-in-webhooks-of-github-jenkins
+
+git init
+
+git remote add origin https://abhinav2231989-admin@bitbucket.org/abhinav2231989/pc8_bitbuck.git
+git add -A
+git commit -m "Initial commit"
+git push origin master
+
+if unrelated history error comes:
+git pull origin branchname --allow-unrelated-histories9:00pm

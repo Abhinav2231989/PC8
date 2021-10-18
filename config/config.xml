@@ -321,7 +321,7 @@
     to set up the parameters required by that system. If this parameter is omitted or set to the empty string the
     buttons in the UI that take you to the exit points will be hidden.
   -->
-  <param name="BillingSystemURL" value=""/>
+  <param name="BillingSystemURL" value="http://localhost:8580/bc/BillingCenter.do"/>
 
   <!--
     URL to use in exit points which view items in the Payment system. If integrating with another billing system the

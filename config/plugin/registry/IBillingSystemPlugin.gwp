@@ -2,6 +2,5 @@
 <plugin
   name="IBillingSystemPlugin">
   <plugin-gosu
-    gosuclass="gw.plugin.billing.impl.StandAloneBillingSystemPlugin">
-  </plugin-gosu>
+    gosuclass="gw.plugin.billing.bc800.BCBillingSystemPlugin"/>
 </plugin>
