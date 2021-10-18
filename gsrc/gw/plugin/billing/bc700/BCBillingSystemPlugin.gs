@@ -167,7 +167,7 @@ class BCBillingSystemPlugin implements IBillingSystemPlugin {
   override function createPolicyPeriod(period: PolicyPeriod, transactionID : String) : String {
     var issuePolicyInfo = new IssuePolicyInfo()
     issuePolicyInfo.sync(period)
-    PCLoggerCategory.BILLING_SYSTEM_PLUGIN.info("Sending policy ${period} to Billing System")
+    PCLoggerCategory.BILLING_SYSTEM_PLUGIN.info("Sending policy ${period} to Billing System.")
     return callUpdate(\ b -> b.issuePolicyPeriod(issuePolicyInfo, transactionID))
   }
 
