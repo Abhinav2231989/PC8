@@ -3,5 +3,5 @@
   interface="IBillingSummaryPlugin"
   name="IBillingSummaryPlugin">
   <plugin-gosu
-    gosuclass="gw.plugin.billing.impl.StandAloneBillingSummaryPlugin"/>
+    gosuclass="gw.plugin.billing.bc800.BCBillingSummaryPlugin"/>
 </plugin>

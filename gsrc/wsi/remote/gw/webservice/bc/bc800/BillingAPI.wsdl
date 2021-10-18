@@ -1493,7 +1493,6 @@
       <wsdl:fault name="BadIdentifierException" message="tns:BadIdentifierException"/>
       <wsdl:fault name="RequiredFieldException" message="tns:RequiredFieldException"/>
       <wsdl:fault name="DataConversionException" message="tns:DataConversionException"/>
-      <wsdl:fault name="DataConversionException" message="tns:DataConversionException"/>
       <wsdl:fault name="WsiAuthenticationException" message="tns:WsiAuthenticationException"/>
     </wsdl:operation>
   </wsdl:portType>
@@ -2572,9 +2571,6 @@
       </wsdl:fault>
       <wsdl:fault name="RequiredFieldException">
         <soap12:fault name="RequiredFieldException" use="literal"/>
-      </wsdl:fault>
-      <wsdl:fault name="DataConversionException">
-        <soap12:fault name="DataConversionException" use="literal"/>
       </wsdl:fault>
       <wsdl:fault name="DataConversionException">
         <soap12:fault name="DataConversionException" use="literal"/>
@@ -3659,9 +3655,6 @@
       </wsdl:fault>
       <wsdl:fault name="RequiredFieldException">
         <soap11:fault name="RequiredFieldException" use="literal"/>
-      </wsdl:fault>
-      <wsdl:fault name="DataConversionException">
-        <soap11:fault name="DataConversionException" use="literal"/>
       </wsdl:fault>
       <wsdl:fault name="DataConversionException">
         <soap11:fault name="DataConversionException" use="literal"/>

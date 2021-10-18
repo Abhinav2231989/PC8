@@ -132,8 +132,6 @@
       <wsdl:fault name="SOAPServerException" message="tns:SOAPServerException"/>
       <wsdl:fault name="BadIdentifierException" message="tns:BadIdentifierException"/>
       <wsdl:fault name="DataConversionException" message="tns:DataConversionException"/>
-      <wsdl:fault name="DataConversionException" message="tns:DataConversionException"/>
-      <wsdl:fault name="DataConversionException" message="tns:DataConversionException"/>
       <wsdl:fault name="WsiAuthenticationException" message="tns:WsiAuthenticationException"/>
     </wsdl:operation>
     <wsdl:operation name="getPaymentInstrumentsForProducer">
@@ -149,8 +147,6 @@
       <wsdl:output name="createPaymentInstrumentOnProducerResponse" message="tns:createPaymentInstrumentOnProducerResponse"/>
       <wsdl:fault name="SOAPServerException" message="tns:SOAPServerException"/>
       <wsdl:fault name="BadIdentifierException" message="tns:BadIdentifierException"/>
-      <wsdl:fault name="DataConversionException" message="tns:DataConversionException"/>
-      <wsdl:fault name="DataConversionException" message="tns:DataConversionException"/>
       <wsdl:fault name="DataConversionException" message="tns:DataConversionException"/>
       <wsdl:fault name="WsiAuthenticationException" message="tns:WsiAuthenticationException"/>
     </wsdl:operation>
@@ -199,12 +195,6 @@
       <wsdl:fault name="DataConversionException">
         <soap12:fault name="DataConversionException" use="literal"/>
       </wsdl:fault>
-      <wsdl:fault name="DataConversionException">
-        <soap12:fault name="DataConversionException" use="literal"/>
-      </wsdl:fault>
-      <wsdl:fault name="DataConversionException">
-        <soap12:fault name="DataConversionException" use="literal"/>
-      </wsdl:fault>
       <wsdl:fault name="WsiAuthenticationException">
         <soap12:fault name="WsiAuthenticationException" use="literal"/>
       </wsdl:fault>
@@ -247,12 +237,6 @@
       </wsdl:fault>
       <wsdl:fault name="BadIdentifierException">
         <soap12:fault name="BadIdentifierException" use="literal"/>
-      </wsdl:fault>
-      <wsdl:fault name="DataConversionException">
-        <soap12:fault name="DataConversionException" use="literal"/>
-      </wsdl:fault>
-      <wsdl:fault name="DataConversionException">
-        <soap12:fault name="DataConversionException" use="literal"/>
       </wsdl:fault>
       <wsdl:fault name="DataConversionException">
         <soap12:fault name="DataConversionException" use="literal"/>
@@ -306,12 +290,6 @@
       <wsdl:fault name="DataConversionException">
         <soap11:fault name="DataConversionException" use="literal"/>
       </wsdl:fault>
-      <wsdl:fault name="DataConversionException">
-        <soap11:fault name="DataConversionException" use="literal"/>
-      </wsdl:fault>
-      <wsdl:fault name="DataConversionException">
-        <soap11:fault name="DataConversionException" use="literal"/>
-      </wsdl:fault>
       <wsdl:fault name="WsiAuthenticationException">
         <soap11:fault name="WsiAuthenticationException" use="literal"/>
       </wsdl:fault>
@@ -354,12 +332,6 @@
       </wsdl:fault>
       <wsdl:fault name="BadIdentifierException">
         <soap11:fault name="BadIdentifierException" use="literal"/>
-      </wsdl:fault>
-      <wsdl:fault name="DataConversionException">
-        <soap11:fault name="DataConversionException" use="literal"/>
-      </wsdl:fault>
-      <wsdl:fault name="DataConversionException">
-        <soap11:fault name="DataConversionException" use="literal"/>
       </wsdl:fault>
       <wsdl:fault name="DataConversionException">
         <soap11:fault name="DataConversionException" use="literal"/>
