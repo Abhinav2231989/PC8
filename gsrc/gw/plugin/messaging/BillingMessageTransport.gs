@@ -62,7 +62,7 @@ class BillingMessageTransport implements MessageTransport {
           break
         case CANCELPERIOD_MSG:
           if(not (policyPeriod.Job typeis Cancellation)){
-            throw new IllegalStateException("Unexpected job type ${policyPeriod.Job.Subtype} for message ${message.EventName}")
+            throw new IllegalStateException("Unexpected job type ${policyPeriod.Job.Subtype} for the message ${message.EventName}")
           }
           plugin.cancelPolicyPeriod(policyPeriod, getTransactionId(message))
           break
