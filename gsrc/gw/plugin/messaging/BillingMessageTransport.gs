@@ -68,7 +68,7 @@ class BillingMessageTransport implements MessageTransport {
           break
         case CHANGEPERIOD_MSG:
           if(not (policyPeriod.Job typeis PolicyChange)){
-            throw new IllegalStateException("Unexpected job type ${policyPeriod.Job.Subtype} for message ${message.EventName}")
+            throw new IllegalStateException("Unexpected job type ${policyPeriod.Job.Subtype} for the message ${message.EventName}")
           }
           if(shouldSendPolicyChange(policyPeriod)){
             plugin.issuePolicyChange(policyPeriod, getTransactionId(message))
